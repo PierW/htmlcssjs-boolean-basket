@@ -13,21 +13,24 @@
         {{{ idplayer }}}
       </div>
     </script>
+    <script id="dataplayers" type="text/x-handlebars-template">
+      <span id="id"><span class="content">{{ playerCode }}</span></span><br>
+      <div class="data">
+        <span id="points">PUNTI FATTI: <span class="content">{{ points }}</span></span><br>
+        <span id="bounce">RIMBALZI: <span class="content">{{ rebounds }}</span></span><br>
+        <span id="mistake">ERRORI: <span class="content">{{ fouls }}</span></span><br>
+        <span id="twoPerc">TIRI DA 2 PUNTI: <span class="content">{{ twoPoints }}</span></span><br>
+        <span id="threePerc">TIRI DA 3 PUNTI: <span class="content">{{ threePoints }}</span></span><br>
+      </div>
+    </script>
   </head>
   <body>
     <div class="container">
       <div class="left"></div>
       <div class="input-container margin-horiz-auto">
         <div class="player-wrapper">
-          <span id="id"><span class="content"></span></span><br>
-          <div class="data">
-            <span id="points">PUNTI FATTI: <span class="content"></span></span><br>
-            <span id="bounce">RIMBALZI: <span class="content"></span></span><br>
-            <span id="mistake">ERRORI: <span class="content"></span></span><br>
-            <span id="twoPerc">TIRI DA 2 PUNTI: <span class="content"></span></span><br>
-            <span id="threePerc">TIRI DA 3 PUNTI: <span class="content"></span></span><br>
-          </div>
-          </div>
+
+        </div>
       </div>
     </div>
   </body>
